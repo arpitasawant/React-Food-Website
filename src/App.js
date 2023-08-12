@@ -35,8 +35,8 @@ function App() {
     return (
         <div className="App">
             <div>
-                <Header name="City Pizzeria" basket={basket.length}/>
-                <Menu name="Pizzas" desc="Tasty pizzas made with fresh ingredients" menu={Items} addItem={addItem}/>
+                <Header name="House Of Taste" basket={basket.length}/>
+                <Menu name="Food Items" desc="Satisfy your cravings with our delivery   " menu={Items} addItem={addItem}/>
                 <Cart items={basket} remove={removeItem}/>
             </div>
         </div>

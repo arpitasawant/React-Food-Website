@@ -7,9 +7,9 @@ const Item = ({item, addItem}) => {
                 <p className="description">{item.desc}</p>
                 <div className="d-flex justify-content-around align-items-center">
                     <button onClick={() => addItem(item)} className="btn btn-success" type="button">
-                        Add to basket
+                        Add to Cart
                     </button>
-                    <span className="badge rounded-pill bg-danger price">${item.price}</span>
+                    <span className="badge rounded-pill bg-danger price"> ₹{item.price}</span>
                 </div>
             </div>
         </div>
